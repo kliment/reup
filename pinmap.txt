@@ -41,6 +41,7 @@ X-MAX       PB15
 Y-MAX       PC13
 Z-MAX       PA18
 
+BEDFET      PA20
 HOTEND1     PA21
 HOTEND2     PA23
 FET1        PA25
