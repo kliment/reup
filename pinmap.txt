@@ -1,0 +1,67 @@
+Pin assignments:
+X-MS1      PC30
+X-MS2      PC29
+X-EN       PC31
+X-STEP     PC28
+X-DIR      PB8
+
+Y-MS1      PC15
+Y-MS2      PB2
+Y-EN       PC16
+Y-STEP     PC23
+Y-DIR      PA31
+
+Z-MS1      PB6
+Z-MS2      PB5
+Z-EN       PB7
+Z-STEP     PA27
+Z-DIR      PC27
+
+E0-MS1      PB12
+E0-MS2      PB11
+E0-EN       PB13
+E0-STEP     PC26
+E0-DIR      PB2
+
+E1-MS1      PB0
+E1-MS2      PC24
+E1-EN       PA22
+E1-STEP     PB1
+E1-DIR      PC25
+
+TEMP0       PC17
+TEMP1       PC18
+TEMP2       PA30
+TEMP3       PB3
+
+X-MIN       PC12
+Y-MIN       PA17
+Z-MIN       PB16
+X-MAX       PB15
+Y-MAX       PC13
+Z-MAX       PA18
+
+HOTEND1     PA21
+HOTEND2     PA23
+FET1        PA25
+FET2        PA24
+
+LED1        PA26
+LED2        PC20
+LED3        PC0
+LED4        PA2
+LED5        PC1
+LED6        PA0
+LED7        PC22
+LED8        PA29
+LED9        PA28
+
+USBDET      PC19
+
+VREF CHANNELS:
+X   4
+Y   2
+Z   1
+E0  3
+E1  6
+AUX 5
