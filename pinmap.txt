@@ -29,10 +29,10 @@ E1-EN       PA22
 E1-STEP     PB1
 E1-DIR      PC25
 
-TEMP0       PC17
-TEMP1       PC18
-TEMP2       PA30
-TEMP3       PB3
+TEMP0       PC17 (AD12B6)
+TEMP1       PC18 (AD12B7)
+TEMP2       PA30 (AD12B1)
+TEMP3       PB3 (AD12B2)
 
 X-MIN       PC12
 Y-MIN       PA17
