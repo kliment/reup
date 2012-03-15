@@ -5,9 +5,9 @@ X-EN       PC31
 X-STEP     PC28
 X-DIR      PB8
 
-Y-MS1      PC15
-Y-MS2      PB2
-Y-EN       PC16
+Y-MS1      PC11
+Y-MS2      PC10
+Y-EN       PA22
 Y-STEP     PC23
 Y-DIR      PA31
 
@@ -25,21 +25,22 @@ E0-DIR      PB2
 
 E1-MS1      PB0
 E1-MS2      PC24
-E1-EN       PA22
+E1-EN       PC13
 E1-STEP     PB1
 E1-DIR      PC25
 
-TEMP0       PC17 (AD12B6)
-TEMP1       PC18 (AD12B7)
+TEMP0       PC16 (AD12B5)
+TEMP1       PB4  (AD12B3)
 TEMP2       PA30 (AD12B1)
-TEMP3       PB3 (AD12B2)
+TEMP3       PB3  (AD12B2)
 
-X-MIN       PC12
+X-MIN       PB16
 Y-MIN       PA17
-Z-MIN       PB16
-X-MAX       PB15
-Y-MAX       PC13
-Z-MAX       PA18
+Z-MIN       PC12 
+X-MAX       PC15 (AD12B4)
+Y-MAX       PC17 (AD12B6)
+Z-MAX       PC18 (AD12B7)
+Z-MAX-GND   PB15
 
 BEDFET      PA20
 HOTEND1     PA21
@@ -47,17 +48,21 @@ HOTEND2     PA23
 FET1        PA25
 FET2        PA24
 
-LED1        PA26
-LED2        PC20
-LED3        PC0
+LED1        PC22
+LED2        PA29
+LED3        PA28
 LED4        PA2
 LED5        PC1
 LED6        PA0
-LED7        PC22
-LED8        PA29
-LED9        PA28
+LED7        PA26
+LED8        PC20
+LED9        PC0
 
 USBDET      PC19
+
+SDDET       PA1
+
+VMOTDET     PA18
 
 VREF CHANNELS:
 X   4
